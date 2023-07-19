@@ -6,6 +6,7 @@ I developed an interactive interface for a Baklava Shop using JavaScript (React)
     <img src="./assets/development.png" alt="" width="1000">
 </p>
 
+
 ## Table of Contents
 * [Technologies Used](#technologies-used)
 * [General Info](#general-info)
