@@ -10,8 +10,8 @@ I developed an interactive interface for a Baklava Shop using JavaScript (React)
 * [Technologies Used](#technologies-used)
 * [General Info](#general-info)
 * [Research](#research)
-* [Features](#features)
 * [Design Iterations](#design-iterations)
+* [Features](#features)
 * [Conclusion](#conclusion)
 * [Project Status](#project-status)
 <!-- * [License](#license) -->
@@ -35,6 +35,11 @@ When taking a close look at the menu, I realized that the biggest factor that di
     above: shows an example of the baklava menu on Aleppo’s Sweets’ website, in which there is no option to filter or sort items.
 </p>
 
+
+## Design Iterations
+
+I initiated the design process by making the list of 12 items. On the first iteration, I had a separate page for my cart. However, I decided to place the cart on the page as the list of items as it would allow users to scroll through the list while also looking at their cart. Although this design choice makes the page a bit more cluttered, I think the trade-off is worth it as the main goal of designing this interface is to make the user experience easier.
+
 ## Features
 
 ### Usability Principles Considered
@@ -51,10 +56,6 @@ and accessed in ShopItem.js.
 
 ### How the User Triggers State Changes
 When the user chooses a filtering option from the dropDown menu, the filter type (for filter 1 or 2) state changes. When the user chooses a sorting option from the sorting dropdown menu, the sorting type changes. The list of items that is displayed first gets filtered by functions matchesFilter1Type and matchesFilter2Type. If the user didn't choose any filtering in the dropdown menus, then the list will not be filtered. The cartList state changes when the user presses Add to Cart or Remove from Cart, for which their functions (contained within App.js) get called from ShopItem.js. Presing Clear Cart also triggers a change to this state (it makes the cartList empty).
-
-## Design Iterations
-
-I initiated the design process by making the list of 12 items. On the first iteration, I had a separate page for my cart. However, I decided to place the cart on the page as the list of items as it would allow users to scroll through the list while also looking at their cart. Although this design choice makes the page a bit more cluttered, I think the trade-off is worth it as the main goal of designing this interface is to make the user experience easier.
 
 ## Conclusion
 
