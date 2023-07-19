@@ -3,7 +3,7 @@
 I developed an interactive interface for a Baklava Shop using JavaScript (React) to allows users to select sweets sold in the shop and add them to their cart.
 
 <p align="center">
-    <img src="./assets/developmeent.png" alt="" width="1000">
+    <img src="./assets/development.png" alt="" width="1000">
 </p>
 
 
