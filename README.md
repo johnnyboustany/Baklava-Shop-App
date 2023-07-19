@@ -3,7 +3,7 @@
 I developed an interactive interface for a Baklava Shop using JavaScript (React) to allows users to select sweets sold in the shop and add them to their cart.
 
 <p align="center">
-    <img src="./assets/texture.png" alt="" width="1000">
+    <img src="./assets/development.png" alt="" width="1000">
 </p>
 
 ## Table of Contents
@@ -30,7 +30,7 @@ Aleppo’s Sweets’ [website](https://www.alepposweets.com/) does not allow use
 When taking a close look at the menu, I realized that the biggest factor that differentiated the items from each other was the main ingredient used. For example, customers who love pistachio will prefer to only look at the options with pistachio. I also noticed that two of the items off the menu are vegan and that vegan customers would appreciate it if they could sort the menu to only see these options.
 
 <p align="center">
-    <img src="./assets/graphtexture.png" height=400 alt="">
+    <img src="./assets/baklava.png" height=400 alt="">
     <br>
     above: shows an example of the baklava menu on Aleppo’s Sweets’ website, in which there is no option to filter or sort items.
 </p>
