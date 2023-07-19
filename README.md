@@ -2,6 +2,8 @@
 
 I developed an interactive interface for a Baklava Shop using JavaScript (React) to allows users to select sweets sold in the shop and add them to their cart.
 
+*The redesign is live [here](https://tiredseal961.github.io/development/).*
+
 <p align="center">
     <img src="./assets/development.png" alt="" width="1000">
 </p>
